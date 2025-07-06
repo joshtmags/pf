@@ -34,7 +34,7 @@ export function HeroSection() {
                     >
                         <div className="from-primary to-accent absolute inset-0 animate-pulse rounded-full bg-gradient-to-r opacity-75 blur" />
                         <Avatar className="ring-primary/20 relative z-10 h-32 w-32 ring-4 sm:h-40 sm:w-40">
-                            <AvatarImage src="/profile.JPG" alt="Profile" className="object-cover" />
+                            <AvatarImage src="profile.JPG" alt="Profile" className="object-cover" />
                             <AvatarFallback className="bg-primary/10 text-primary text-2xl font-bold sm:text-3xl">
                                 JT
                             </AvatarFallback>
