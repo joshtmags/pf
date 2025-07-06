@@ -15,7 +15,7 @@ export function ProjectsSection() {
             title: "Summit Formula - Learning Management System",
             description:
                 "Summit Formula is a comprehensive Learning Management System (LMS) specifically designed for PAGCOR (Philippine Amusement and Gaming Corporation) training and certification programs. This is a sophisticated, enterprise-grade LMS specifically built for the Philippine gaming industry's training and certification needs.",
-            image: "lms.jpg",
+            image: "/lms.jpg",
             technologies: [
                 "Laravel 10.8 (PHP 8.1+)",
                 "React",
@@ -46,7 +46,7 @@ export function ProjectsSection() {
             title: "Online Casino Gaming Platform Back Office",
             description:
                 "A comprehensive back office management system for an online casino gaming platform. It's built with Laravel (backend) and React with Inertia.js (frontend) to manage all aspects of an online gambling operation. This is the administrative control center for PisoPlay, an online casino platform that allows players to bet on various games including slots, lottery, live casino, and sports betting.",
-            image: "lnc.png",
+            image: "/lnc.png",
             technologies: [
                 "Laravel/InertiaJS",
                 "Material-UI",
@@ -154,7 +154,13 @@ export function ProjectsSection() {
                                             className="from-primary/20 to-accent/20 flex h-full w-full items-center justify-center bg-gradient-to-br"
                                         >
                                             {project.image ? (
-                                                <Image src={project.image} alt="cover photo" />
+                                                <Image
+                                                    src={project.image}
+                                                    alt="cover photo"
+                                                    width={800}
+                                                    height={200}
+                                                    className="object-contain"
+                                                />
                                             ) : (
                                                 <div className="text-primary/30 text-6xl font-bold">
                                                     {getInitials(project.title)}
