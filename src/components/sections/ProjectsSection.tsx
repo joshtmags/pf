@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Links } from "@/lib/constants/config";
 import { motion } from "framer-motion";
 import { Calendar, ExternalLink, Github, Users } from "lucide-react";
+import Image from "next/image";
 
 export function ProjectsSection() {
     const projects = [
@@ -153,7 +154,7 @@ export function ProjectsSection() {
                                             className="from-primary/20 to-accent/20 flex h-full w-full items-center justify-center bg-gradient-to-br"
                                         >
                                             {project.image ? (
-                                                <img src={project.image} />
+                                                <Image src={project.image} alt="cover photo" />
                                             ) : (
                                                 <div className="text-primary/30 text-6xl font-bold">
                                                     {getInitials(project.title)}

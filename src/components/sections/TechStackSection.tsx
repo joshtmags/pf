@@ -3,7 +3,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import { Database, GitBranch, Globe, Server, Smartphone, Wrench } from "lucide-react";
+import { Database, GitBranch, Globe, Server, Wrench } from "lucide-react";
 
 export function TechStackSection() {
     const techCategories = [

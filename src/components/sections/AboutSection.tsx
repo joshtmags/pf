@@ -85,7 +85,8 @@ export function AboutSection() {
                                 </p>
                                 <p className="text-muted-foreground text-lg leading-relaxed">
                                     When I&apos;m not coding, you can find me exploring new technologies, playing online
-                                    games or playing sports like wakeboarding or working out. I also play the guitar by the way.
+                                    games or playing sports like wakeboarding or working out. I also play the guitar by
+                                    the way.
                                 </p>
                             </div>
 
